@@ -1,0 +1,88 @@
+import React from 'react'
+import { Head, Appear } from 'mdx-deck'
+import Layout from './Layout'
+export { dark as theme } from 'mdx-deck/themes'
+
+
+
+<Layout>
+<h1>Ready to study??</h1>
+<h5>Use this deck to prep from common Front End Engineer interview questions.</h5>
+<p>
+  Use the arrow keys to toggle the slides and give yourself a chance to figure the question out
+  on your own before checking out the answer.
+</p>
+</Layout>
+
+---
+
+<h3>Section 1 - Javascript</h3>
+
+---
+
+  ### Question #1
+  <Layout>
+    <Appear>
+      <p>What is the difference between == and === ?</p>
+      <p>
+        === is scrict equality. Both sides of the operator must be the same
+        type to be considered equal
+      </p>
+    </Appear>
+  </Layout>
+
+---
+  ### Question #2
+  <Layout>
+    <Appear>
+      <p>What is a Closure?</p>
+      <p>
+        A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+      </p>
+    </Appear>
+  </Layout>
+
+---
+  ### Question #3
+  <Layout>
+    <Appear>
+      <p>What is a pure function?</p>
+      <p>
+        A pure function is a function which:
+      </p>
+      <ul>
+        <li>Given the same input, will always return the same output.</li>
+        <li>Produces no side effects.</li>
+      </ul>
+    </Appear>
+  </Layout>
+
+---
+
+  ### Question #4
+  <Layout>
+    <Appear>
+      <p>What is a Promise?</p>
+      <p>
+        A promise is an object that may produce a single value some time in the future: either a resolved value, or a reason that it’s not resolved (e.g., a network error occurred). A promise may be in one of 3 possible states: fulfilled, rejected, or pending. Promise users can attach callbacks to handle the fulfilled value or the reason for rejection.
+      </p>
+    </Appear>
+  </Layout>
+
+---
+  ### Question #5
+  <Layout>
+    <Appear>
+    <p>What’s the Difference Between Class & Prototypal Inheritance?</p>
+    <ul>
+      <li>
+        Class Inheritance: A class is like a blueprint — a description of the object to be created.
+        Classes inherit from classes and create subclass relationships: hierarchical class taxonomies.
+      </li>
+      <li>
+        Prototypal Inheritance: A prototype is a working object instance.
+      Objects inherit directly from other objects.
+      </li>
+    </ul>
+    </Appear>
+  </Layout>

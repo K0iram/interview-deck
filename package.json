@@ -1,0 +1,15 @@
+{
+  "name": "study-deck",
+  "version": "1.0.0",
+  "description": "Interview Prep Study Deck",
+  "main": "index.js",
+  "author": "Mario Kennedy <mk@mariokennedy.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mdx-code": "1.1.3",
+    "mdx-deck": "^2.1.3"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx"
+  }
+}
